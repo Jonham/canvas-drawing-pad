@@ -8,3 +8,28 @@ canvas {
     border: 2px solid gray;
     box-sizing: border-box;
 }
+div.toolbox {
+    position: fixed;
+    top: 400px;
+    right: 0;
+}
+.toolbox > span {
+    display: block;
+    border: 1px solid yellow;
+    padding: 1em 1.5em;
+    text-align: center;
+
+    cursor: pointer;
+}
+
+div.fileoption {
+
+}
+.fileoption > span {
+    padding: 0.6em 1em;
+    display: inline-block;
+    border-radius: 0.3em;
+    background-color: yellow;
+
+    cursor: pointer;
+}
